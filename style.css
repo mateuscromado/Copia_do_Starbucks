@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: arial;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 10px black;
+
+
+}
+
+.header2,
+.links {
+    display: flex;
+    justify-content: left;
+
+    padding: 10px;
+
+
+
+}
+
+.header2 {
+    padding: 1.1%;
+    margin-left: 30px;
+
+    align-items: center;
+
+}
+
+/*Lado esquerdo do cabeçalho*/
+.header3 {
+    display: flex;
+    justify-content: flex-end; /* Alinhar os itens à direita */
+    align-items: center; /* Alinha verticalmente ao centro */
+
+    margin-right: 30px;
+
+}
+
+.c_imagem_historias {
+    width: 110px;
+    margin: 10%  10px;
+}
+
+.header3 button {
+    font-size: 15px;
+    border-radius: 20px;
+
+
+    font-weight: bold;
+
+
+}
+.buton{
+    cursor: pointer;
+
+}
+
+.bu_entrar {
+    background-color: rgb(255, 255, 255);
+    border: solid 1px black;
+    color: black;
+    padding: 10px 20px !important   ;
+
+    transition: 0.3s;
+
+}
+
+.bu_entrar,.bu_participe{
+    margin: auto;
+    margin:auto  10px;
+}
+.bu_entrar:hover{
+    transition: 0.3s;
+    scale:0.89;
+
+}
+
+
+.bu_participe{
+    color: white;
+    background-color: black;
+
+    border: none;
+
+    padding: 10px 20px !important   ;
+
+    transition: 0.3s;
+    margin: auto ;
+
+    
+}
+.bu_participe:hover{
+    scale:0.89
+}
+
+
+
+.encontre_loja a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none   ;
+    padding: 10px;
+
+    justify-content: center;
+
+}
+.encontre_loja > a > img{
+
+    margin-bottom: -10px;
+    margin-right: -10px;
+}
+
+
+
+/*-------Lado esquerdo do cabeçalho*/
+
+.links {
+    padding: auto;
+    margin: auto 0;
+
+
+}
+
+.links button {
+    color: rgb(33, 33, 33);
+    font-size: 13px;
+
+    background: none;
+    border: none;
+    font-weight: bold;
+
+    transition: 0.2s;
+}
+
+.links button:hover {
+
+    color: #0E8952;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.header2 img {
+    width: 60px;
+    cursor: pointer;
+
+}
+
+/*Começlo do código referente ao corpo*/
+
