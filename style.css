@@ -36,11 +36,23 @@
 
 }
 
+/*Começo do lado direito do cabeçalho*/
+
+.links>form>button {
+    font-weight: 800;
+
+}
+
+
+/*Fim do Lado direito do cabeçalho*/
+
 /*Lado esquerdo do cabeçalho*/
 .header3 {
     display: flex;
-    justify-content: flex-end; /* Alinhar os itens à direita */
-    align-items: center; /* Alinha verticalmente ao centro */
+    justify-content: flex-end;
+    /* Alinhar os itens à direita */
+    align-items: center;
+    /* Alinha verticalmente ao centro */
 
     margin-right: 30px;
 
@@ -48,7 +60,7 @@
 
 .c_imagem_historias {
     width: 110px;
-    margin: 10%  10px;
+    margin: 10% 10px;
 }
 
 .header3 button {
@@ -60,7 +72,8 @@
 
 
 }
-.buton{
+
+.buton {
     cursor: pointer;
 
 }
@@ -69,38 +82,41 @@
     background-color: rgb(255, 255, 255);
     border: solid 1px black;
     color: black;
-    padding: 10px 20px !important   ;
+    padding: 10px 20px !important;
 
     transition: 0.3s;
 
 }
 
-.bu_entrar,.bu_participe{
+.bu_entrar,
+.bu_participe {
     margin: auto;
-    margin:auto  10px;
+    margin: auto 10px;
 }
-.bu_entrar:hover{
+
+.bu_entrar:hover {
     transition: 0.3s;
-    scale:0.89;
+    scale: 0.89;
 
 }
 
 
-.bu_participe{
+.bu_participe {
     color: white;
     background-color: black;
 
     border: none;
 
-    padding: 10px 20px !important   ;
+    padding: 10px 20px !important;
 
     transition: 0.3s;
-    margin: auto ;
+    margin: auto;
 
-    
+
 }
-.bu_participe:hover{
-    scale:0.89
+
+.bu_participe:hover {
+    scale: 0.89
 }
 
 
@@ -108,13 +124,14 @@
 .encontre_loja a {
     color: black;
     font-weight: bold;
-    text-decoration: none   ;
+    text-decoration: none;
     padding: 10px;
 
     justify-content: center;
 
 }
-.encontre_loja > a > img{
+
+.encontre_loja>a>img {
 
     margin-bottom: -10px;
     margin-right: -10px;
@@ -155,5 +172,219 @@
 
 }
 
-/*Começlo do código referente ao corpo*/
 
+
+
+
+/*Fim do código referente ao cabeçalho*/
+
+
+/**/
+/**/
+
+/*comeo do código referente ao corpo*/
+
+
+/*Primeiro baner com a frase do café*/
+.baner-1 {
+    width: 100vw;
+
+    height: 20vh;
+
+    background-color: #D4E9E2;
+
+    color: black;
+
+    margin: 0 auto;
+
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 30px auto;
+
+}
+
+.baner-1 h3 {
+    width: 50vw;
+    font-weight: lighter;
+
+    margin: 0 auto;
+}
+
+/*O css acima será utilizado em todos os botões de saiba
+mais da página*/
+.button-saiba-mais {
+    font-weight: 600;
+    font-size: 100%;
+
+    width: auto;
+    height: 30px;
+
+    padding: 0px 15px;
+
+    border-radius: 15px;
+
+    border: solid black 1px;
+
+    background-color: #D4E9E2;
+
+    margin-top: 30px;
+
+    color: #564432;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.button-saiba-mais:hover {
+    scale: 0.9;
+}
+
+/*================== O css acima será utilizado e todos os
+botões seguintes de saiba mais */
+
+
+
+/*Segundo baner sua pausa mais saborosa*/
+
+.baner-2 {
+    display: flex;
+
+    margin-top: 40px;
+}
+
+.baner-image-1 img {
+    width: 50vw;
+}
+
+.baner-text-1 {
+    background-color: #D4E9E2;
+    text-align: center;  
+    padding: 30px;
+
+
+
+
+}
+
+.baner-text-1 h2,
+.baner-text-1 h3 {
+    font-weight: 400;
+}
+
+.baner-p{
+    display: flex;
+    align-items: center;
+
+    background-color: #D4E9E2;
+
+    width: 50vw;
+
+
+}
+
+footer{
+    padding: 80px;
+
+}
+footer nav{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+
+}
+footer nav ul{
+    list-style: none;
+    
+}
+footer nav ul h3{
+    margin-bottom: 10px;
+    color: #615f5f;
+    font-weight: 600;
+
+}
+
+footer nav ul li{
+    padding: 10px 0;
+}
+
+footer nav ul li a:hover{
+    color: #181818;
+}
+footer nav ul li a{
+    text-decoration: none;
+    color: #9c9c9c;
+    
+}
+footer div img
+{
+    max-width: 100%;
+}
+
+
+
+/*Estilização das redes sociais */
+
+.redes-sociais{
+    display: flex;
+    justify-content: flex-start;
+
+    align-items: center;
+
+    width: 82vw;
+
+    margin: 0 auto;
+
+    margin-top: 20px;
+
+
+}
+
+
+.redes-sociais a img{
+    width: 35px;
+
+    margin-right: 10px;
+    padding-top: 10px;
+
+    transition: 0.3s;
+}
+
+.redes-sociais a img:hover{
+    scale: 1.2;
+    opacity: 80%;
+
+}
+
+.termos{
+    display: flex;
+    width: 82vw;
+    margin: 0 auto;
+
+    justify-content: flex-start;
+}
+
+.termos a{
+    text-decoration: none;
+    color: #181818;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.termos a:hover{
+color: #615f5f;
+}
+.direitos{
+    width: 82vw;
+    margin: 0 auto;
+}
+.direitos h3{
+    font-size: 18px;
+}
+/*Fim da estilização das redes sociais*/
+
+
+/*Fim do código referente ao corpo*/
